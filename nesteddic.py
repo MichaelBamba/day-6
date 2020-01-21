@@ -15,5 +15,11 @@ ramit = {
     }
   ]
 }
+print(ramit.get ("email"))
+print(ramit["interests"][0])
 
-print (ramit)
+bothFriends = ramit["friends"]
+
+for index in bothFriends :
+    if 'Jasmine':
+        print(ramit ["friends"][1])
